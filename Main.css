@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#201E1F;
+}
+#box1,#box2{
+    height: 100px;
+    width: 650px;
+    position: absolute;
+    top:40%;
+    margin-left: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+#box2{
+    top:55.5%;
+}
+.colorLayer{
+    height: 100px;
+    width: 650px;
+    background-color:#F6BEBF;
+    position: absolute;
+    left: -650px;
+    z-index: 9;
+}
+#box2 .colorLayer{
+    background-color:#C5EBF8;
+}
+.title{
+    font-family: arial black;
+    font-size: 7em;
+    color:white;
+    line-height: 90px;
+    position: absolute;
+    left: -650px;
+    z-index: 1;
+}
+#box3{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:150%;
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+.colorLayer2{
+    height: 450px;
+    width:850px;
+    background-color:#F6BEBF;
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+.image img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+#box4{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top:150%;
+    right: 0%;
+    margin-right: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+.colorLayer3{
+    height: 400px;
+    width: 400px;
+    background-color:#F6BEBF;
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+.info{
+    height: 320px;
+    width: 320px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D;
+    padding: 40px;
+    text-align: justify;
+    background-color: #C5EBF8;
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+h2{
+    font-family: arial;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.btn{
+    height: 35px;
+    width: 150px;
+    background-color: #201E1F;
+    font-family: arial;
+    font-size: 11px;
+    color:white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
